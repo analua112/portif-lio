@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
-    color: #1E1E2A;
+    color: green;
 }
 
 /* HEADER */
@@ -12,11 +12,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color:rgb(119, 76, 12);
-    background-image: url('/fotos/linfo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-color:palegoldenrod;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,9 +40,9 @@ h2 {
   
 .social-media a {
     text-decoration: none;
-    color: lightslategray;
+    color: black;
     padding: 1rem 4rem;
-    border: 1px solid lightslategray;
+    border: 1px solid green;
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -55,7 +51,7 @@ h2 {
 }
 
 a:hover{
-    background-color: palegreen;
+    background-color: burlywood;
 }
 
 /*MENU HAMBUGUER*/
@@ -82,7 +78,7 @@ a:hover{
 .checkbox .trace{
     width: 50px;
     height: 2px;
-    background-color: #1E1E2A;
+    background-color: black;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -111,19 +107,19 @@ a:hover{
 
 .menu {
     position: absolute;
-    top: 28px;
+    top: 30px;
     right: 30px;
     background-color: transparent;
     height: 4px;
-    width: 10px;
+    width: 8px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #f2f4a3;
+    box-shadow: 0px 0px 0px 0px green;
     z-index: -1;
     transition: 400ms ease-in-out 0s;
 }
 
 .menu-items {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -143,7 +139,7 @@ a:hover{
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: burlywood;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -170,11 +166,11 @@ a:hover{
 }
 
 #toggle:checked + .checkbox {
-    background-color: #3f72ac;
+    background-color: palegoldenrod;
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax #ddddcc;
+    box-shadow: 0px 0px 0px 100vmax palegoldenrod;
     z-index: 1;
 }
 
@@ -209,14 +205,14 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:burlywood;
-    background-image: url(/fotos/linfo.png);
+    background-color:plum;
+    background-image: url("uau.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: plum;
-    cursor: pointer;
+    color: black;
+    cursor:pointer;
     transition: 0.5s ease-in-out;
 }
 
@@ -227,7 +223,7 @@ a:hover{
 }
 
 .card-wrapper {
-    text-align: center;
+    text-align:center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,7 +238,7 @@ a:hover{
     width: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid rosybrown;
+    border: 1px solid green;
     opacity: 0;
     transition: 0.5s ease-in-out;
 }
